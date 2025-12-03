@@ -1,0 +1,9 @@
+menu "App Insights"
+    config APP_INSIGHTS_ENABLE_LOG_TYPE_ALL
+        bool "Enable all log types"
+        default y
+        help
+            Enable all log types (Error, Warning, Event) for Insights. 
+            If disabled, only Error logs are reported.
+
+endmenu
